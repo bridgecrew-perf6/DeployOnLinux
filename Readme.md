@@ -15,3 +15,6 @@ location / {
               proxy_set_header Connection "upgrade";
 
         }
+
+ufw 5000 port allow :
+ufw allow 5000/tcp
